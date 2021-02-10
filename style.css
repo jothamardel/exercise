@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+}
+
+div {
+  width: 100%;
+  /* height: 50px; */
+}
+
+.container_1 {
+  background: url('./header.jpg');
+  background-size: cover;
+  height: 38rem;
+}
+
+.container_1 nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+.nav_logo {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav_logo img {
+  width: auto;
+  height: 50px;
+  margin-left: 5px;
+}
+
+.nav_items ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav_items ul li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.description {
+  padding-top: 10rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 30%;
+}
+
+.description h1 {
+  font-size: 5rem;
+  margin: 0;
+}
+
+.description p {
+  width: 50%;
+}
+
+.description button {
+  width: 12rem;
+  font-size: 1.5rem;
+  color: white;
+  background: #7f7f;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+
+/* 1rem = 16px */
+
+.container_2 {
+  background-color: blue;
+  height: 20rem;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.container_2 h4 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.container_2 img {
+  height: 5rem;
+}
+
+.container_2  p {
+  width: 30%;
+}
+
+.container_3 {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.mic {
+  display: flex;
+  justify-content: center;
+}
+
+.mic img {
+  border-radius: 100%;
+  height: auto;
+  width: 50%;
+  margin: 20px;
+}
+
+.container_4 {
+  display: flex;
+  justify-content: center;
+  height: 20rem;
+}
+
+.box {
+  width: 34%;
+  height: 20rem;
+  color: white;
+}
+
+.box h3 {
+  margin-top: 10rem;
+}
+
+  
+
+
+#box_1 {
+  background: url('./concert.jpg');
+}
+
+#box_2 {
+   background: url('./writing.jpg');
+}
+
+#box_3 {
+  background: url('./iphone.jpg');
+}
+
+#box_1, #box_2, #box_3 {
+  background-size: cover;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.container_5 {
+  background-color: green;
+}
+
+.container_6 {
+  background-color: brown;
+}
+
+.container_7 {
+  background-color: chocolate;
+}
+
+.container_8 {
+  background-color: darkgoldenrod;
+}
